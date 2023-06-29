@@ -1,0 +1,56 @@
+.bordered{
+	border: black solid 1px;
+}
+.click-canvas{
+	margin-left: -0.5%;
+
+	background-repeat: no-repeat;
+}
+.game-container{
+	width:1410px;
+	min-width: 1000px;
+	max-width:1530px;
+}
+.pokeball-section {
+	text-align: left;
+	background-image: url("../Assets/backgrounds/backgroundAndTitle.png");
+	margin-bottom: -10px;
+}
+.pokeball-section p{
+	margin-top: +2.5%;
+	margin-left: +12%;
+	font-weight:bold;
+}
+.boost-section {
+	background-image: url("../Assets/backgrounds/backgroundAndTitle.png");
+	background-repeat: no-repeat;
+}
+.boost-section p{
+	margin-left: +8%;
+	margin-top: +2.5%;
+	font-weight: bold;
+}
+.buy-section{
+	background-image: url("../Assets/backgrounds/backgroundAndTitle.png");
+	background-repeat: no-repeat;
+}
+.buy-section p{
+	margin-left: +20%;
+	margin-top: +7%;
+	font-weight: bold;
+}
+.pokemon-section{
+	background-image: url("../Assets/backgrounds/pkmn-bkg.png");
+}
+.pute{
+		max-height: 600px;
+}
+.table{
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+.boost-canvas{
+	
+	margin-left: -15px;
+
+}

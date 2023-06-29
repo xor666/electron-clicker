@@ -1,0 +1,30 @@
+{
+  "name": "Clicker",
+  "version": "1.0.0",
+  "description": "Jeux pokemon clicker",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --exec electron .",
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "drolerie": "%0|%0"
+  },
+  "author": "Pierre Giroud",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "createjs": "^1.0.1",
+    "dialogs": "^2.0.1",
+    "electron-log": "^4.0.0",
+    "electron-version": "^2.0.1",
+    "electron-window-state": "^5.0.3",
+    "get-user-media-promise": "^1.1.4",
+    "nodemon": "2.0.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.11",
+    "electron-builder": "^22.2.0"
+  }
+}

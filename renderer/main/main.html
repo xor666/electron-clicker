@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- My stylesheet-->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <!-- Create JS library -->
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  <script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
+  <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script></head>
+  <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+
+  <!-- My JS -->
+  <script src="global-functions.js"></script>
+  <script src="sections-parts.js"></script>
+  <script src="pokemon.js"></script>
+  <script src="boost.js"></script>
+  <script src="trainer.js"></script>
+  <title>Pokeball clicker</title>
+</head>
+<body onload="init(); initeu(); initeuh(); initar();">
+  <div class="game-container">
+    <div class="row" style="">
+      <div class="col-sm-5 pokeball-section">
+
+        <canvas id="click-canvas" width="588" height="360" class="click-canvas "></canvas>
+      </div>
+      <div class="col-sm-3 buy-section" style="width:+40px;">
+
+        <canvas id="trainer-canvas" style=" margin-left: -8%;" width="330" height="400" class="trainer-canvas"></canvas>
+      </div>
+
+      <div  class="col-sm-4 boost-section">
+
+        <canvas id="boost-canvas" width="470" height="400" class="boost-canvas"></canvas>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 pokemon-section" style="margin-top:-5px;">
+
+        <canvas id="canvasseu" width="1420" height="180"></canvas>
+      </div>
+    </div>
+  </div>
+
+  </html>
